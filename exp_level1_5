@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int num,rem,b;
+    scanf("%d",&num);
+    if(num>99)
+    {
+        b=num%100;
+        if(b<10)
+        {
+        num=num/10;
+        rem=num%10;
+        printf("%d%d",rem,b);
+        }
+        else
+        {
+            printf("%d",rem);
+        }
+        
+}
+}
