@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int age;
+    scanf("%d",&age);
+    char marital_status,gender;
+    scanf("%c%c",&marital_status,&gender);
+        if(marital_status=='M' || marital_status =='m')
+    {
+        printf ("the is driver is married");
+    }
+    else if((marital_status=='U' || marital_status=='u') && (gender =='M' || gender =='m')&& (age>30))
+    {
+        printf ("the driver is not married and male");
+    }
+     else if((marital_status=='U' || marital_status=='u') && (gender =='F' || gender =='f'
+     ) && (age>25))
+   {
+       printf(" the driver is not married and female");
+   }
+   else
+   {
+       printf("the driver is not married");
+          }
+}
