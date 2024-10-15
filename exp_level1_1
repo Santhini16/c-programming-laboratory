@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    int a,b,c,n1,n2,n3;
+    scanf("%d%d%d",&a,&b,&c);
+    n1=a+b;
+    n2=b+c;
+    n3=c+a;
+    if(n1>c && n2>a && n3>b)
+    {
+        printf("the triangle is valid");
+    }
+    else
+    {
+        printf("the triangle is not valid");
+    }
+}
