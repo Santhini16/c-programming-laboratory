@@ -1,0 +1,9 @@
+#include<string.h>
+#include <stdio.h>
+int main() 
+{
+   char a1[20],a2[20];
+   scanf("%s",a1);
+   char *a3=strcpy(a2,a1);
+   printf("%s",a3);
+}
